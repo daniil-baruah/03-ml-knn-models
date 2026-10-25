@@ -1,0 +1,28 @@
+{
+    "project": "Water Potability Prediction",
+    "model": "KNeighborsClassifier",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "n_neighbors": 21,
+        "weights": "distance",
+        "metric": "euclidean",
+        "p": 1
+    },
+    "final_parameters": {
+        "cv": 10,
+        "n_neighbors": 21,
+        "weights": "distance",
+        "metric": "euclidean",
+        "p": 1
+    },
+    "metrics": {
+        "Accuracy Score": 0.6478658536585366,
+        "Precision Score": 0.6146788990825688,
+        "Recall": 0.26171875,
+        "ROC AUC Score Train": 0.9999877537724504,
+        "ROC AUC Score Test": 0.656435546875,
+        "ROC AUC Score Full": 1.0,
+        "Class Balance": "0: 61.0%, 1: 39.0%"
+    }
+}

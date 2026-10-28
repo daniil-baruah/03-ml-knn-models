@@ -1,0 +1,48 @@
+{
+    "project": "Spine Type Prediction",
+    "model": "KNeighborsClassifier",
+    "trained_date": "2026-07",
+    "test_parameters": {
+        "cv": 10,
+        "n_neighbors": 15,
+        "weights": "uniform",
+        "metric": "manhattan",
+        "p": 1
+    },
+    "final_parameters": {
+        "cv": 10,
+        "n_neighbors": 17,
+        "weights": "distance",
+        "metric": "manhattan",
+        "p": 1
+    },
+    "metrics": {
+        "Accuracy Score": 0.7096774193548387,
+        "Precision Score": {
+            "Normal": 0.5384615384615384,
+            "Hernia": 0.625,
+            "Spondylolisthesis": 0.8928571428571429
+        },
+        "Recall Score": {
+            "Normal": 0.7,
+            "Hernia": 0.4166666666666667,
+            "Spondylolisthesis": 0.8333333333333334
+        },
+        "ROC AUC Score Train": {
+            "Normal": 0.9222098214285714,
+            "Hernia": 0.94640625,
+            "Spondylolisthesis": 0.9845377604166667
+        },
+        "ROC AUC Score Test": {
+            "Normal": 0.8672619047619048,
+            "Hernia": 0.9375,
+            "Spondylolisthesis": 0.9354166666666667
+        },
+        "ROC AUC Score Full": {
+            "Normal": 1.0,
+            "Hernia": 1.0,
+            "Spondylolisthesis": 1.0
+        },
+        "Class Balance": "0: 32.3%, 1: 19.4%, 2: 48.4%"
+    }
+}
